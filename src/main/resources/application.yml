@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/syonet
-    username: syonet
-    password: syonet
+    url: jdbc:postgresql://localhost:5432/estoque
+    username: estoque
+    password: estoque
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
