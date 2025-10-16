@@ -4,8 +4,8 @@ services:
     image: postgres:16
     container_name: estoque-postgres
     environment:
-      POSTGRES_USER: estoque
-      POSTGRES_PASSWORD: estoque
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
       POSTGRES_DB: estoque
     ports:
       - "5432:5432"
